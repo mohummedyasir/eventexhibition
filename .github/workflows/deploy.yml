@@ -1,7 +1,9 @@
 name: Deploy to GitHub Pages
 
-# Builds the static site and deploys it to GitHub Pages on every push to the
-# default branch. Enable Pages once: Settings → Pages → Source: GitHub Actions.
+# Builds the static site and deploys it to GitHub Pages on every push to main.
+# `enablement: true` turns Pages on automatically the first time this runs, so
+# no manual Settings changes are needed. The build is base-path aware, so it
+# works correctly whether served at a domain root or a /project-name/ sub-path.
 
 on:
   push:
@@ -25,12 +27,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Build site
         run: node scripts/build.js
         env:
-          # Set your production domain here (or a repo variable SITE_URL).
-          SITE_URL: ${{ vars.SITE_URL || 'https://gulfeventsjobs.com' }}
-      - uses: actions/configure-pages@v5
+          # Provided by the Pages configuration step so canonical URLs and
+          # asset paths match wherever the site is served.
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: "."

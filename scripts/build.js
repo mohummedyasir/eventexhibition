@@ -17,6 +17,9 @@ const ROOT = path.resolve(__dirname, '..');
 //   SITE_URL=https://gulfeventsjobs.com npm run build
 // It is used for canonical URLs, Open Graph tags and the sitemap only.
 const SITE_URL = (process.env.SITE_URL || 'https://gulfeventsjobs.com').replace(/\/$/, '');
+// BASE_PATH lets the site live under a sub-path (e.g. a GitHub Pages project
+// site served at /eventexhibition/). Root-absolute links are rewritten to it.
+const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const SITE_NAME = 'Gulf Events Jobs';
 const SITE_TAGLINE = 'Event & Exhibition Jobs in the Gulf';
 const SITE_DESCRIPTION =
@@ -190,7 +193,7 @@ function footer() {
 }
 
 function layout(opts, bodyHtml) {
-  return `<!DOCTYPE html>
+  const doc = `<!DOCTYPE html>
 <html lang="en">
 <head>${head(opts)}
 </head>
@@ -203,6 +206,10 @@ ${footer()}
 <script src="/assets/app.js" defer></script>
 </body>
 </html>`;
+  // Rewrite root-absolute asset/link URLs to the configured base path.
+  // Only touches href="/… and src="/…; absolute (http/mailto) and #anchor
+  // URLs are left untouched.
+  return BASE ? doc.replace(/(href|src)="\//g, `$1="${BASE}/`) : doc;
 }
 
 function breadcrumbs(items) {
