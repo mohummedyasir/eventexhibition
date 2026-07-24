@@ -1,0 +1,12 @@
+{
+  "name": "Gulf Events Jobs",
+  "short_name": "Gulf Events Jobs",
+  "description": "Event & exhibition jobs across the Gulf region — UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b2545",
+  "theme_color": "#0b2545",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

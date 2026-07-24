@@ -1,0 +1,15 @@
+{
+  "name": "gulf-events-jobs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gulf Events Jobs — the Gulf region's job board for event & exhibition careers. Powered by Business Umbrella.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "dev": "npm run build && npm run serve"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
