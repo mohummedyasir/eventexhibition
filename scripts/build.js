@@ -24,7 +24,7 @@ const SITE_NAME = 'Gulf Events Jobs';
 const SITE_TAGLINE = 'Event & Exhibition Jobs in the Gulf';
 const SITE_DESCRIPTION =
   'The Gulf region’s dedicated job board for event and exhibition careers. Browse the latest event manager, exhibition, production, AV and event sales jobs across the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman.';
-const CONTACT_EMAIL = 'careers@gulfeventsjobs.com';
+const CONTACT_EMAIL = 'mohummedyasir@gmail.com';
 const POWERED_BY = 'Business Umbrella';
 const POWERED_BY_URL = 'https://businessumbrella.com';
 const TWITTER_HANDLE = '@gulfeventsjobs';
