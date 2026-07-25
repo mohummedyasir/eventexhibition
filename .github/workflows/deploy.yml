@@ -1,0 +1,54 @@
+name: Deploy to GitHub Pages
+
+# Builds the static site and deploys it to GitHub Pages on every push to main.
+# `enablement: true` turns Pages on automatically the first time this runs, so
+# no manual Settings changes are needed. The build is base-path aware, so it
+# works correctly whether served at a domain root or a /project-name/ sub-path.
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Build site
+        run: node scripts/build.js
+        env:
+          # Provided by the Pages configuration step so canonical URLs and
+          # asset paths match wherever the site is served.
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

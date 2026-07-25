@@ -1,0 +1,388 @@
+{
+  "jobs": [
+    {
+      "id": "eve-001",
+      "title": "Senior Event Manager",
+      "company": "Falcon Live Events",
+      "companyDescription": "A leading live-events and experiential agency delivering flagship conferences and brand activations across the GCC.",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "category": "Event Management",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 22000,
+      "salaryMax": 30000,
+      "currency": "AED",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-18",
+      "validThrough": "2026-09-30",
+      "featured": true,
+      "summary": "Lead end-to-end delivery of large-scale conferences and exhibitions across the UAE and wider Gulf region.",
+      "responsibilities": [
+        "Own the full event lifecycle for exhibitions and conferences from brief to post-event reporting",
+        "Manage budgets of AED 1M+ and negotiate with venues, contractors and suppliers",
+        "Lead cross-functional teams of coordinators, production crew and on-site staff",
+        "Ensure compliance with UAE venue, licensing and health & safety requirements"
+      ],
+      "requirements": [
+        "6+ years managing large exhibitions or conferences, ideally in the GCC",
+        "Proven budget ownership and supplier negotiation experience",
+        "Strong knowledge of Dubai World Trade Centre and ADNEC operations",
+        "Fluent English; Arabic is an advantage"
+      ]
+    },
+    {
+      "id": "eve-002",
+      "title": "Exhibition Stand Project Manager",
+      "company": "Gulf Stand Builders",
+      "companyDescription": "Custom exhibition stand design and build specialists serving major trade shows in the Emirates.",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "category": "Exhibition & Stands",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 15000,
+      "salaryMax": 20000,
+      "currency": "AED",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-20",
+      "validThrough": "2026-09-30",
+      "featured": true,
+      "summary": "Manage the design, build and on-site installation of bespoke exhibition stands for international trade shows.",
+      "responsibilities": [
+        "Coordinate stand design, fabrication timelines and on-site build & breakdown",
+        "Liaise with clients, designers and the workshop to hit show deadlines",
+        "Manage installation crews and enforce site safety standards",
+        "Track project costs and deliver stands on time and on budget"
+      ],
+      "requirements": [
+        "4+ years in exhibition stand build or fit-out project management",
+        "Ability to read technical drawings and CAD layouts",
+        "Experience working to fixed trade-show deadlines",
+        "UAE driving licence preferred"
+      ]
+    },
+    {
+      "id": "eve-003",
+      "title": "Event Production Manager",
+      "company": "Vision Productions ME",
+      "companyDescription": "Technical production house delivering staging, AV and rigging for concerts, galas and corporate shows.",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "category": "Production & AV",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 18000,
+      "salaryMax": 25000,
+      "currency": "AED",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-15",
+      "validThrough": "2026-09-15",
+      "featured": false,
+      "summary": "Own technical production — staging, lighting, sound and video — for premium live events in Abu Dhabi.",
+      "responsibilities": [
+        "Plan and deliver technical production for concerts, galas and conferences",
+        "Manage AV, lighting, rigging and staging vendors on site",
+        "Produce production schedules, CAD stage plots and risk assessments",
+        "Run technical rehearsals and show calls"
+      ],
+      "requirements": [
+        "5+ years in live event or broadcast technical production",
+        "Deep knowledge of AV, lighting and rigging systems",
+        "Comfortable leading crews under show-day pressure",
+        "Health & safety certification an advantage"
+      ]
+    },
+    {
+      "id": "eve-004",
+      "title": "Exhibition Sales & Sponsorship Manager",
+      "company": "MENA Expo Group",
+      "companyDescription": "Organiser of flagship B2B trade exhibitions and summits across the Middle East.",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "category": "Sales & Sponsorship",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 18000,
+      "salaryMax": 28000,
+      "currency": "SAR",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-19",
+      "validThrough": "2026-10-01",
+      "featured": true,
+      "summary": "Drive exhibition space and sponsorship revenue for major trade shows in Saudi Arabia's growing events market.",
+      "responsibilities": [
+        "Sell exhibition space and sponsorship packages to exhibitors and partners",
+        "Build a pipeline of new business and grow key accounts year on year",
+        "Hit and exceed revenue targets for flagship KSA shows",
+        "Represent events at industry gatherings across the Gulf"
+      ],
+      "requirements": [
+        "4+ years in exhibition, media or sponsorship sales",
+        "Track record of hitting six-figure revenue targets",
+        "Existing GCC network is a strong advantage",
+        "Fluent English; Arabic highly desirable"
+      ]
+    },
+    {
+      "id": "eve-005",
+      "title": "Event Coordinator",
+      "company": "Pearl Events Qatar",
+      "companyDescription": "Boutique agency producing corporate, government and cultural events in Doha.",
+      "city": "Doha",
+      "country": "Qatar",
+      "countryCode": "QA",
+      "category": "Event Management",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 9000,
+      "salaryMax": 13000,
+      "currency": "QAR",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-21",
+      "validThrough": "2026-09-20",
+      "featured": false,
+      "summary": "Support the delivery of corporate and cultural events across Doha, from planning through to on-site execution.",
+      "responsibilities": [
+        "Coordinate logistics, suppliers and timelines for a portfolio of events",
+        "Prepare run sheets, floor plans and supplier briefs",
+        "Support on-site set-up, delivery and breakdown",
+        "Handle registration, guest lists and event reporting"
+      ],
+      "requirements": [
+        "2+ years in event coordination or hospitality",
+        "Highly organised with strong attention to detail",
+        "Willing to work flexible hours around event schedules",
+        "English essential; Arabic a plus"
+      ]
+    },
+    {
+      "id": "eve-006",
+      "title": "Audio Visual Technician",
+      "company": "Stagecraft Technical",
+      "companyDescription": "AV and staging rental company supporting exhibitions, conferences and live shows.",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "category": "Production & AV",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 6000,
+      "salaryMax": 9000,
+      "currency": "AED",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-17",
+      "validThrough": "2026-09-10",
+      "featured": false,
+      "summary": "Set up and operate audio, video and lighting equipment for exhibitions and corporate events.",
+      "responsibilities": [
+        "Install, test and operate AV equipment on site",
+        "Support projection, LED walls, sound systems and lighting rigs",
+        "Troubleshoot technical issues quickly during live events",
+        "De-rig and maintain equipment after shows"
+      ],
+      "requirements": [
+        "2+ years hands-on AV or event technical experience",
+        "Practical knowledge of sound, video and lighting kit",
+        "Able to work physically demanding, flexible hours",
+        "Team player who stays calm under pressure"
+      ]
+    },
+    {
+      "id": "eve-007",
+      "title": "Event Marketing Manager",
+      "company": "Bahrain Events Authority Partners",
+      "companyDescription": "Marketing partner promoting national exhibitions, festivals and business events in Bahrain.",
+      "city": "Manama",
+      "country": "Bahrain",
+      "countryCode": "BH",
+      "category": "Marketing",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 1200,
+      "salaryMax": 1800,
+      "currency": "BHD",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-16",
+      "validThrough": "2026-09-25",
+      "featured": false,
+      "summary": "Own the marketing strategy that drives visitor and exhibitor attendance for major Bahrain events.",
+      "responsibilities": [
+        "Plan and execute multi-channel campaigns to grow event attendance",
+        "Manage social media, email, paid ads and PR for each show",
+        "Track registration funnels and optimise for ROI",
+        "Coordinate with sponsors and media partners"
+      ],
+      "requirements": [
+        "4+ years in event or B2B marketing",
+        "Hands-on with digital campaigns and analytics",
+        "Strong copywriting and campaign management skills",
+        "Bilingual English/Arabic preferred"
+      ]
+    },
+    {
+      "id": "eve-008",
+      "title": "Registration & Ticketing Coordinator",
+      "company": "MENA Expo Group",
+      "companyDescription": "Organiser of flagship B2B trade exhibitions and summits across the Middle East.",
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "category": "Registration & Operations",
+      "employmentType": "CONTRACTOR",
+      "remote": false,
+      "salaryMin": 7000,
+      "salaryMax": 10000,
+      "currency": "SAR",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-22",
+      "validThrough": "2026-08-30",
+      "featured": false,
+      "summary": "Run the registration and badging operation for a major trade exhibition in Jeddah.",
+      "responsibilities": [
+        "Manage online and on-site registration systems",
+        "Set up and staff registration and badge-printing desks",
+        "Train and supervise registration temps during show days",
+        "Report attendance data to organisers in real time"
+      ],
+      "requirements": [
+        "Experience with event registration platforms",
+        "Strong customer-service and problem-solving skills",
+        "Available for the full show build-up and live days",
+        "English required; Arabic strongly preferred"
+      ]
+    },
+    {
+      "id": "eve-009",
+      "title": "Head of Events",
+      "company": "Oman Convention Partners",
+      "companyDescription": "Destination management and events company serving Muscat's conference and incentive market.",
+      "city": "Muscat",
+      "country": "Oman",
+      "countryCode": "OM",
+      "category": "Event Management",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 2000,
+      "salaryMax": 2800,
+      "currency": "OMR",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-14",
+      "validThrough": "2026-09-14",
+      "featured": false,
+      "summary": "Lead the events division delivering conferences, incentives and government events across Oman.",
+      "responsibilities": [
+        "Set the strategy and P&L for the events division",
+        "Win and deliver major conference and incentive contracts",
+        "Build and mentor a high-performing events team",
+        "Develop venue and supplier partnerships across Oman"
+      ],
+      "requirements": [
+        "8+ years in events with 3+ in a leadership role",
+        "Proven P&L and team leadership experience",
+        "Strong network in the GCC MICE sector",
+        "Fluent English; Arabic desirable"
+      ]
+    },
+    {
+      "id": "eve-010",
+      "title": "Event Operations & Logistics Executive",
+      "company": "Kuwait Expo Services",
+      "companyDescription": "Full-service exhibition and event logistics contractor in Kuwait.",
+      "city": "Kuwait City",
+      "country": "Kuwait",
+      "countryCode": "KW",
+      "category": "Registration & Operations",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 500,
+      "salaryMax": 750,
+      "currency": "KWD",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-13",
+      "validThrough": "2026-09-05",
+      "featured": false,
+      "summary": "Coordinate the logistics, freight and on-site operations for exhibitions in Kuwait.",
+      "responsibilities": [
+        "Plan freight, storage and material handling for exhibitions",
+        "Coordinate build-up, show days and breakdown schedules",
+        "Manage on-site labour and equipment suppliers",
+        "Ensure venue and safety compliance throughout"
+      ],
+      "requirements": [
+        "3+ years in event, exhibition or logistics operations",
+        "Strong organisational and coordination skills",
+        "Experience with exhibition freight is a plus",
+        "English required; Arabic advantageous"
+      ]
+    },
+    {
+      "id": "eve-011",
+      "title": "Guest Experience & Hospitality Manager",
+      "company": "Falcon Live Events",
+      "companyDescription": "A leading live-events and experiential agency delivering flagship conferences and brand activations across the GCC.",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "category": "Hospitality & Guest Services",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 14000,
+      "salaryMax": 18000,
+      "currency": "AED",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-12",
+      "validThrough": "2026-09-12",
+      "featured": false,
+      "summary": "Deliver a premium guest and VIP experience across high-profile events and exhibitions.",
+      "responsibilities": [
+        "Design and manage the end-to-end guest journey for events",
+        "Lead VIP protocol, hospitality suites and concierge services",
+        "Recruit, brief and manage front-of-house event staff",
+        "Handle escalations and maintain five-star service standards"
+      ],
+      "requirements": [
+        "5+ years in hospitality, guest services or VIP protocol",
+        "Experience with high-profile or government guests",
+        "Impeccable presentation and communication skills",
+        "Bilingual English/Arabic strongly preferred"
+      ]
+    },
+    {
+      "id": "eve-012",
+      "title": "Junior Event Executive",
+      "company": "Pearl Events Qatar",
+      "companyDescription": "Boutique agency producing corporate, government and cultural events in Doha.",
+      "city": "Doha",
+      "country": "Qatar",
+      "countryCode": "QA",
+      "category": "Event Management",
+      "employmentType": "FULL_TIME",
+      "remote": false,
+      "salaryMin": 6000,
+      "salaryMax": 8500,
+      "currency": "QAR",
+      "salaryPeriod": "MONTH",
+      "datePosted": "2026-07-23",
+      "validThrough": "2026-09-23",
+      "featured": false,
+      "summary": "An entry-level role for an ambitious events professional to grow across the full event lifecycle.",
+      "responsibilities": [
+        "Assist senior coordinators across planning and delivery",
+        "Handle administrative tasks, supplier chasing and documentation",
+        "Support on-site set-up, registration and breakdown",
+        "Gather post-event feedback and help build reports"
+      ],
+      "requirements": [
+        "0-2 years experience; events internship a plus",
+        "Degree in events, marketing, hospitality or related field",
+        "Proactive, organised and eager to learn",
+        "Good English communication skills"
+      ]
+    }
+  ]
+}
