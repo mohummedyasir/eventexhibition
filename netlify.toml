@@ -1,0 +1,11 @@
+[build]
+  command = "node scripts/build.js"
+  publish = "."
+
+[build.environment]
+  SITE_URL = "https://gulf-events-jobs.netlify.app"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
